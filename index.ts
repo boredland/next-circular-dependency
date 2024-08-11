@@ -21,7 +21,7 @@ const defaultOptions = {
    * @param x 
    */
   onStart: (x) => {
-    console.debug(`ℹ️ Checking ${x.compilation.name} for circular dependencies`)
+    console.debug(`🔎 Checking ${x.compilation.name} for circular dependencies`)
   },
   /**
    * Log the end of the check
